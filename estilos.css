@@ -74,6 +74,47 @@ body {
 }
 
 
+/* Footer */
+.footer {
+    background-color: #004A90!important;
+    font-size: 0.9rem;
+}
+
+.footer h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #FCB100;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    color: #bbb;
+}
+
+.footer img {
+    max-width: 100px;
+}
+
+
 /* Responsividade */
 @media (max-width: 768px) {
     .carousel-caption h5 {
