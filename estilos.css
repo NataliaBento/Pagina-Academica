@@ -1,0 +1,91 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+/* Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f8f9fa;
+}
+
+.about-section h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Sessão de Ícones */
+#icones {
+    background-color: #f8f9fa;
+}
+
+#icones h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FCB100;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.circle:hover {
+    background-color: #FF9900;
+    transform: scale(1.1);
+}
+
+.circle span {
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+    .about-section {
+        text-align: center;
+    }
+    .about-section .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
